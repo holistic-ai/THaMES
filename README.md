@@ -1,9 +1,8 @@
 # THaMES: An End-to-End Tool for Hallucination Mitigation and Evaluation in Large Language Models.
 
-<div align="center">
+[![Paper](https://img.shields.io/badge/ArXiv-2409.11353-red)](https://arxiv.org/abs/2409.11353)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-</div>
 
 This is the official implementation of the NeurIPS 2024 SOLAR Workshop Paper: THaMES: An End-to-End Tool for Hallucination Mitigation and Evaluation in Large Language Models. THaMES is a comprehensive framework for generating, mitigating, and evaluating hallucinations in Large Language Models (LLMs). The framework provides an end-to-end pipeline with support for:
 
