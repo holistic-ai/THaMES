@@ -170,6 +170,24 @@ thames/
 └── README.md
 ```
 
+## Citation
+
+If you use this work, please cite the following paper:
+
+```
+@misc{liang2024thamesendtoendtoolhallucination,
+      title={THaMES: An End-to-End Tool for Hallucination Mitigation and Evaluation in Large Language Models}, 
+      author={Mengfei Liang and Archish Arun and Zekun Wu and Cristian Munoz and Jonathan Lutch and Emre Kazim and Adriano Koshiyama and Philip Treleaven},
+      year={2024},
+      eprint={2409.11353},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2409.11353}, 
+}
+```
+
+---
+
 ## License
 
 THaMES is licensed under the MIT License - see [`LICENSE`](LICENSE) for more details.
