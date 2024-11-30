@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "qa_testset_generator"
+version = "0.1.0"
+description = ""
+authors = ["archish arun <archish.arun@holisticai.com>", "mengfei liang <mengfei.liang@holisticai.com>", "zekun wu <zekun.wu@holisticai.com>"]
+readme = "README.md"
+packages = [{include = "qa_testset_generator"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+llama-index-embeddings-azure-openai = "^0.1.11"
+llama-index-llms-azure-openai = "^0.1.10"
+llama-index = "^0.10.65"
+json-repair = "^0.27.2"
+tiktoken = "^0.7.0"
+tqdm = "^4.66.5"
+sentence-transformers = "2.6.1"
+python-dotenv = "^1.0.1"
+llmlingua = "^0.2.2"
+hdbscan = "^0.8.38.post1"
+matplotlib = "^3.9.2"
+plotly = "^5.23.0"
+pyldavis = "^3.4.1"
+ragas = "0.1.13"
+mwparserfromhell = "^0.6.6"
+datasets = "^2.21.0"
+llama-index-core = "0.10.65"
+llama-index-llms-ollama = "0.1.5"
+llama-index-embeddings-huggingface = "0.2.1"
+duckduckgo-search = "^6.2.11"
+peft = "0.11.1"
+logger = "^1.4"
+torch = "2.3.1"
+torchvision = "0.18.1"
+auto-gptq = "0.3.0"
+optimum = "^1.21.4"
+accelerate = "^0.34.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.setuptools.packages.find]
+include = ["qa_testset_generator*"] 
+
