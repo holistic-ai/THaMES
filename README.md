@@ -1,4 +1,4 @@
-# THaMES Framework
+# THaMES: An End-to-End Tool for Hallucination Mitigation and Evaluation in Large Language Models.
 
 <div align="center">
 
